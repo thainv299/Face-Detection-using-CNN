@@ -1,4 +1,4 @@
-#Face Recognition using CNN and Haar Cascade
+# Face Recognition using CNN and Haar Cascade
 ## Project Overview
 This project implements a face recognition (classification) system using Convolutional Neural Networks (CNN).
 The pipeline consists of two main stages:
@@ -139,7 +139,7 @@ The section #test model:
     Randomly samples training images
     Displays predictions
     Computes basic accuracy
-⚠️ If you do not need this evaluation step, you can safely remove it.
+### ⚠️ If you do not need this evaluation step, you can safely remove it.
 
 ### Step 2: Run Face Detection & Recognition
 Run:

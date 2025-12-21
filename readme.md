@@ -115,7 +115,7 @@ pip install tensorflow
 👉 https://www.youtube.com/watch?v=mmfJyBJrGFU
 
 You can also use the provided Keras library included in the project.
-## Configuration Steps
+### Configuration Steps
 Step 1: Update dataset paths
 ```
 TRAIN_DATA = 'datasets/train-data'
@@ -134,7 +134,7 @@ The model is saved as:
 ```
 model_FaceDetection.h5
 ```
-## Model Evaluation (Optional)
+### Model Evaluation (Optional)
 The section #test model:
     Randomly samples training images
     Displays predictions
@@ -146,7 +146,7 @@ Run:
 ```
 FaceDetection.py
 ```
-## Required Modifications
+### Required Modifications
 Step 1: Update model path
 ```
 models.load_model('model_FaceDetection.h5')
@@ -158,7 +158,7 @@ face_detector = cv2.CascadeClassifier(
     'haarcascades/haarcascade_frontalface_alt.xml'
 )
 ```
-Make sure the path points correctly to the Haar Cascade XML file.
+- Make sure the path points correctly to the Haar Cascade XML file.
 Step 3: Update image / video source path (if required)
 Step 4: Run the script 
 

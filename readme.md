@@ -101,7 +101,7 @@ makepath: new directory to save processed images
 The output folder will be created automatically inside your project directory.
 
 ## 🚀 How to Run the Project
-### Step 1: Train the CNN Model
+Step 1: Train the CNN Model
 Run:
 ```
 build_model.py
@@ -116,13 +116,13 @@ pip install tensorflow
 
 You can also use the provided Keras library included in the project.
 ## Configuration Steps
-### Step 1: Update dataset paths
+Step 1: Update dataset paths
 ```
 TRAIN_DATA = 'datasets/train-data'
 TEST_DATA  = 'datasets/test-data'
 ```
 
-### Step 2: Update the dictionary according to your dataset
+Step 2: Update the dictionary according to your dataset
 Ensure:
 
 Correct order
@@ -141,26 +141,26 @@ The section #test model:
     Computes basic accuracy
 ### ⚠️ If you do not need this evaluation step, you can safely remove it.
 
-### Step 2: Run Face Detection & Recognition
+Step 2: Run Face Detection & Recognition
 Run:
 ```
 FaceDetection.py
 ```
-Required Modifications
-### Step 1: Update model path
+## Required Modifications
+Step 1: Update model path
 ```
 models.load_model('model_FaceDetection.h5')
 ```
 Change this to the actual path of your trained model.
-### Step 2: Update Haar Cascade path
+Step 2: Update Haar Cascade path
 ```
 face_detector = cv2.CascadeClassifier(
     'haarcascades/haarcascade_frontalface_alt.xml'
 )
 ```
 Make sure the path points correctly to the Haar Cascade XML file.
-### Step 3: Update image / video source path (if required)
-### Step 4: Run the script 
+Step 3: Update image / video source path (if required)
+Step 4: Run the script 
 
 ## ⚠️ Notes on Accuracy
 Model accuracy strongly depends on dataset size

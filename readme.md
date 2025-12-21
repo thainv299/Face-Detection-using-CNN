@@ -163,17 +163,17 @@ Step 3: Update image / video source path (if required)
 Step 4: Run the script 
 
 ## ⚠️ Notes on Accuracy
-Model accuracy strongly depends on dataset size
-More images per person → higher accuracy
-Use consistent lighting conditions
-Always use grayscale images of size 128×128
+- Model accuracy strongly depends on dataset size
+- More images per person → higher accuracy
+- Use consistent lighting conditions
+- Always use grayscale images of size 128×128
 
 ## 📌 Future Improvements
-Replace Haar Cascade with MTCNN or RetinaFace
-Add data augmentation
-Use Transfer Learning (MobileNet, ResNet)
-Improve real-time FPS performance
-Add confidence threshold for predictions
+- Replace Haar Cascade with MTCNN or RetinaFace
+- Add data augmentation
+- Use Transfer Learning (MobileNet, ResNet)
+- Improve real-time FPS performance
+- Add confidence threshold for predictions
 
 ## Author
 Thai Nguyen

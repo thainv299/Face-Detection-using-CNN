@@ -100,7 +100,7 @@ path: directory of original images
 makepath: new directory to save processed images
 The output folder will be created automatically inside your project directory.
 
-## 🚀 How to Run the Project
+## How to Run the Project
 Step 1: Train the CNN Model
 Run:
 ```
@@ -139,7 +139,7 @@ The section #test model:
     Randomly samples training images
     Displays predictions
     Computes basic accuracy
-### ⚠️ If you do not need this evaluation step, you can safely remove it.
+### If you do not need this evaluation step, you can safely remove it.
 
 Step 2: Run Face Detection & Recognition
 Run:
@@ -162,13 +162,13 @@ face_detector = cv2.CascadeClassifier(
 Step 3: Update image / video source path (if required)
 Step 4: Run the script 
 
-## ⚠️ Notes on Accuracy
+## Notes on Accuracy
 - Model accuracy strongly depends on dataset size
 - More images per person → higher accuracy
 - Use consistent lighting conditions
 - Always use grayscale images of size 128×128
 
-## 📌 Future Improvements
+## Future Improvements
 - Replace Haar Cascade with MTCNN or RetinaFace
 - Add data augmentation
 - Use Transfer Learning (MobileNet, ResNet)
